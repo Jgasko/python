@@ -1,4 +1,6 @@
-import pandas as pd
+import pandas
+
+
 
 #make sure everything is working
 print ("Hello World!")
@@ -21,3 +23,8 @@ for i in range(0,number):
     names.append(name)
 print(names)
 
+
+pandas.set_option('expand_frame_repr', False)
+filepath = 'sheet1.csv'
+df = pandas.read_csv(filepath)
+print(df)
