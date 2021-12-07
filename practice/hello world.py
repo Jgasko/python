@@ -23,6 +23,6 @@ print(names)
 
 
 pandas.set_option('expand_frame_repr', False)
-filepath = 'sheet1.csv'
+filepath = "/home/joe/Projects/python/practice/sheet1.csv"
 df = pandas.read_csv(filepath)
 print(df)
