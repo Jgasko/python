@@ -24,6 +24,4 @@ def winner(player, npc):
     else:
         return False
 
-
-
 print (play())
